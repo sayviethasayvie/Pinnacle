@@ -1,1 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+h1{
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://st4.depositphotos.com/13349494/23275/i/450/depositphotos_232751862-stock-photo-dark-blue-shabby-wooden-background.jpg");
+    background-repeat: repeat y;
+}
+.calculator{
+   background-color:#03143a;
+   padding: 25px;
+   border-radius: 50px;
+   box-shadow: inset 1px 1px 5px #dfdadb, 5px 5px 12px rgba(0, 0, 0, .16);
+   display: grid;
+   grid-template-columns: repeat(4,68px);
+   color: white;
+   margin-top: 15px;
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 272px;
+    background-color: #171b1e;
+    box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border:none;
+    border-radius:30px;
+    color: rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+}   
+button{
+    height: 48px;
+    width: 60px;
+    background-color:#8fd8f7;
+    border-radius: 30px;
+
+}
+.equal{
+    width: 127px;
+    margin-top: 3px;
+    background-color: #c6caa6;
+}
+.team{
+    background-image: url("https://st4.depositphotos.com/13349494/23275/i/450/depositphotos_232751862-stock-photo-dark-blue-shabby-wooden-background.jpg");
+    color: white;
+}
+#output-screen{
+    background-color: white;
+   
+}
 
